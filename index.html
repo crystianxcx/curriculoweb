@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quem sou Eu</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* CONFIGURAÇÃO GLOBAL */
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:white;
+color:#333;
+line-height:1.6;
+padding:30px;
+transition:0.4s;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+/* CABEÇALHO */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+margin-bottom:40px;
+}
+
+header h1{
+font-size:2.5rem;
+color:black;
+border-bottom:4px solid gold;
+padding-bottom:6px;
+display:inline-block;
+}
+
+header h2{
+font-size:1rem;
+font-weight:normal;
+margin-top:10px;
+color:#555;
+}
+
+/* AVATAR */
+
+.avatar{
+width:160px;
+height:160px;
+border-radius:50%;
+overflow:hidden;
+border:3px solid gold;
+}
+
+.avatar img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+/* TEXTO */
+
+main p{
+text-align:justify;
+margin-bottom:20px;
+font-size:1.05rem;
+}
+
+/* HABILIDADES */
+
+.habilidades{
+margin-top:20px;
+}
+
+.habilidades ul{
+padding-left:20px;
+}
+
+/* BOTÕES */
+
+.btn-area{
+margin-top:30px;
+}
+
+/* BOTÃO CURRÍCULO */
+
+.btn-cv{
+background:black;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+}
+
+.btn-cv:hover{
+background:gold;
+color:black;
+}
+
+/* BOTÃO IMPRIMIR */
+
+.btn-print{
+background:black;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+border:none;
+cursor:pointer;
+}
+
+.btn-print:hover{
+background:gold;
+color:black;
+}
+
+/* BOTÃO DARK MODE */
+
+.btn-theme{
+background:gold;
+color:black;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn-theme:hover{
+opacity:0.8;
+}
+
+/* RODAPÉ */
+
+.social-footer{
+margin-top:50px;
+padding-top:20px;
+border-top:2px solid #ddd;
+text-align:center;
+}
+
+.social-footer a{
+margin:0 15px;
+font-size:28px;
+color:black;
+transition:0.3s;
+}
+
+.social-footer a:hover{
+color:gold;
+transform:scale(1.2);
+}
+
+/* CONTATO PARA IMPRESSÃO */
+
+.contato-print{
+display:none;
+margin-top:30px;
+}
+
+/* DARK MODE */
+
+.dark-mode{
+background:#121212;
+color:#eee;
+}
+
+.dark-mode header h1{
+color:white;
+}
+
+.dark-mode .social-footer a{
+color:white;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+.avatar{
+margin-top:20px;
+}
+
+}
+
+/* IMPRESSÃO */
+
+@media print{
+
+.btn-area{
+display:none;
+}
+
+.social-footer{
+display:none;
+}
+
+.contato-print{
+display:block;
+}
+
+body{
+margin:0;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+}
+
+p{
+font-size:12pt;
+line-height:1.4;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div>
+
+<h1>Crystian Azevedo Sanches Lopes</h1>
+
+<h2>
+• Desenvolvimento de sistemas e Alubo monitor BEEM
+</h2>
+
+</div>
+
+<div class="avatar">
+<img src="img/avatar.jpeg" alt="Avatar">
+</div>
+
+</header>
+
+<main>
+
+<p>
+
+Sou um estudante de 17 anos, iniciando minha trajetória na área de tecnologia e desenvolvimento de sistemas. Atualmente, estou em constante aprendizado, buscando evoluir tanto na programação quanto na forma de ensinar e compartilhar conhecimento.
+
+</p>
+
+<p>
+
+Atuo no apoio ao desenvolvimento educacional por meio da monitoria em matemática, auxiliando alunos na compreensão de conteúdos e na resolução de exercícios. Além disso, estudo e desenvolvo projetos voltados à tecnologia, com foco em programação e criação de soluções digitais.
+</p>
+
+<p>
+
+Entre meus interesses estão o estudo de programação e tecnologia, produção de conteúdo técnico e reflexivo, desenvolvimento pessoal e intelectual, além do interesse por ensino e aprendizagem.
+
+Também tenho interesse em áreas que envolvem raciocínio lógico, filosofia e formas de utilizar a tecnologia como ferramenta para facilitar o aprendizado e gerar impacto positivo.
+
+
+</p>
+
+<div class="habilidades">
+
+<h3>Principais habilidades</h3>
+
+<ul>
+
+<li>Raciocínio lógico e pensamento matemático avançado</li>
+<li>Monitoria em matemática, com experiência em explicação de conteúdos e apoio a alunos</li>
+<li>Didática no ensino de conceitos matemáticos (álgebra, frações, geometria e operações)</li>
+<li>Comunicação clara e objetiva, especialmente em contextos educacionais</li>
+<li>Comunicação eficaz e trabalho em equipe</li>
+<li>Desenvolvimento web (HTML, CSS e lógica de programação)</li>
+<li>Organização de estudos e planejamento de ensino</li>
+<li>Trabalho em equipe e colaboração em ambiente escolar</li>
+<li>Interesse em tecnologia aplicada à educação</li>
+
+</ul>
+
+</div>
+
+<!-- BOTÕES -->
+
+<div class="btn-area">
+
+<button onclick="window.print()" class="btn-print">
+<i class="fa-solid fa-print"></i> Imprimir Currículo
+</button>
+
+<button onclick="toggleTheme()" class="btn-theme">
+<i class="fa-solid fa-moon"></i> Dark Mode
+</button>
+
+</div>
+
+<!-- CONTATO PARA IMPRESSÃO -->
+
+<section class="contato-print">
+
+<h3>Contato</h3>
+
+<p>
+
+Email: crystian.a.sanches@gmail.com<br>
+WhatsApp: +55 11 98368-7004<br>
+Github: github.com/
+
+
+</p>
+
+</section>
+
+</main>
+
+<footer class="social-footer">
+
+<a href="https://wa.me/5511983687004" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<a href="mailto:crystian.a.sanches@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+
+
+<a href="https://github.com/" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+
+
+</footer>
+
+</div>
+
+<script>
+
+function toggleTheme(){
+document.body.classList.toggle("dark-mode");
+}
+
+</script>
+
+</body>
+</html>
